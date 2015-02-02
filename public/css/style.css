@@ -1,7 +1,8 @@
 .sidebar {
-	background: rgb(255,255,255);
-	background: rgba(255,255,255,.7);
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,.7);
 	margin-top: 20px;
+	margin-left: 20px;
 }
 
 .sidebar-sticky {
@@ -13,6 +14,6 @@
 }
 
 .img-profile {
-	max-width: 200px;
-	max-height: 200px;
+	width: 200px;
+	height: 200px;
 }
