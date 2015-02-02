@@ -1,6 +1,7 @@
 .sidebar {
 	background: rgb(255,255,255);
 	background: rgba(255,255,255,.7);
+	margin-top: 20px;
 }
 
 .sidebar-sticky {
