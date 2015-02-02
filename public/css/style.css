@@ -4,6 +4,8 @@
 	color: white;
 	padding-top: 20px;
 	padding-left: 20px;
+	top: 0;
+	bottom: 0;
 }
 
 .sidebar-sticky {
@@ -17,4 +19,5 @@
 .img-profile {
 	width: 200px;
 	height: 200px;
+	margin: auto;
 }
