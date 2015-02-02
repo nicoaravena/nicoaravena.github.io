@@ -20,4 +20,11 @@
 	width: 200px;
 	height: 200px;
 	margin: auto;
+	text-align: center;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 5px;
+	left: 20px;
 }
