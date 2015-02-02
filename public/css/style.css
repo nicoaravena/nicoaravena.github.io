@@ -1,0 +1,13 @@
+.sidebar {
+	background: rgb(255,255,255);
+	background: rgba(255,255,255,.7);
+}
+
+.sidebar-sticky {
+	margin: auto;
+}
+
+.sidebar-about h1 {
+	text-align: center;
+}
+
