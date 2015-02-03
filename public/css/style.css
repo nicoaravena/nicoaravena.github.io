@@ -1,11 +1,16 @@
+body {
+	margin: auto;
+}
+
 .sidebar {
-	position: fixed;
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,.9);
 	color: white;
 	padding-top: 20px;
 	padding-left: 20px;
 	height: 100%;
+	bottom: 0;
+	top: 0;
 }
 
 .sidebar-sticky {
