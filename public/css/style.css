@@ -2,15 +2,12 @@ body {
 	margin: auto;
 }
 
-ul, li {
-	text-decoration: none;
-	table-layout: none;
+ul{
+	list-style: none;
 }
 
 .sidebar {
-	position: relative;
-	top: 0px;
-	bottom: 0px;
+	position: fixed;
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,.9);
 	color: white;
@@ -35,6 +32,12 @@ ul, li {
 
 .copyright {
 	position: absolute;
-	bottom: 5px;
-	left: 20px;
+	bottom: 25px;
+	text-align: center;
+}
+
+.content {
+	left: 25%;
+	padding-bottom: 25px;
+	margin: auto;
 }
