@@ -1,6 +1,5 @@
 body {
 	margin: auto;
-	min-height: 100%;
 }
 
 .sidebar {
@@ -9,9 +8,6 @@ body {
 	color: white;
 	padding-top: 20px;
 	padding-left: 20px;
-	height: 100%;
-	bottom: 0;
-	top: 0;
 }
 
 .sidebar-sticky {

@@ -5,33 +5,34 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
+  <div>
+    <div class="page-header">
+      <h1>
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+        <small><span class="label label-info">{{ page.date | date_to_string }}</small></span>
+      </h1>
+    </div>
     {{ post.content }}
   </div>
+  <hr>
   {% endfor %}
 </div>
 
-<div class="pagination">
+<div class="btn-group" role="group">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+    <a class="btn btn-default" href="/page{{paginator.next_page}}">Older</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <a class="btn btn-default" disabled="disabled">Older</a>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
+      <a class="btn btn-default" href="/">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+      <a class="btn btn-default" href="/page{{paginator.previous_page}}">Newer</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <a class="btn btn-default" disabled="disabled">Newer</a>
   {% endif %}
 </div>
