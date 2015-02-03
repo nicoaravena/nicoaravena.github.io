@@ -15,8 +15,26 @@ ul{
 	height: 100%;
 }
 
+.sidebar-nav {
+	padding: 0;
+}
+
 .sidebar-nav a {
 	color: white;
+	background: rgba(0,0,0,.7);
+	border-top: solid rgba(0,0,0,.8);
+	height: 30px;
+}
+
+.sidebar-nav a:hover {
+	background: rgba(255,255,255,.9);
+	color: #333;
+	text-decoration: none;
+}
+
+.sidebar-nav li {
+	margin: auto;
+	text-align: center;
 }
 
 .sidebar-sticky {
