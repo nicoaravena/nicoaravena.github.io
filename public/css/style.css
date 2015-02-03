@@ -15,6 +15,7 @@ ul{
 
 .sidebar-about {
 	padding-top: 20px;
+	padding-left: 20px;
 }
 
 .sidebar-nav {
@@ -29,8 +30,8 @@ ul{
 	display: block;
 	line-height: 29px;
 	transition: 0.7s;
-	-moz-transition: 0.7s;
-	-webkit-transition: 0.7s;
+		-moz-transition: 0.7s;
+		-webkit-transition: 0.7s;
 }
 
 .sidebar-nav a:hover {
@@ -42,6 +43,11 @@ ul{
 .sidebar-nav li {
 	margin: auto;
 	text-align: center;
+}
+
+.sidebar-sticky {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .sidebar-about h1, .sidebar-about p {
@@ -59,6 +65,7 @@ ul{
 .copyright {
 	bottom: 5px;
 	position: absolute;
+	padding-left: 20px;
 }
 
 .content {
