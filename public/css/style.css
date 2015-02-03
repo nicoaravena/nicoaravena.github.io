@@ -2,6 +2,10 @@ body {
 	margin: auto;
 }
 
+ul, li {
+	text-decoration: none;
+}
+
 .sidebar {
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,.9);
