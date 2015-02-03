@@ -20,6 +20,7 @@ ul{
 
 .sidebar-nav {
 	padding: 0;
+	border-bottom: solid #494949 1px;
 }
 
 .sidebar-nav a {
@@ -28,7 +29,7 @@ ul{
 	border-top: solid #494949 1px;
 	height: 50px;
 	display: block;
-	line-height: 29px;
+	line-height: 49px;
 	transition: 0.7s;
 		-moz-transition: 0.7s;
 		-webkit-transition: 0.7s;
@@ -63,8 +64,6 @@ ul{
 }
 
 .copyright {
-	bottom: 5px;
-	position: absolute;
 	padding-left: 20px;
 }
 
@@ -72,4 +71,8 @@ ul{
 	left: 25%;
 	padding-bottom: 25px;
 	margin: auto;
+}
+
+.row {
+	margin: 0;
 }
