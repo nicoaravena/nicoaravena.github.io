@@ -4,9 +4,13 @@ body {
 
 ul, li {
 	text-decoration: none;
+	table-layout: none;
 }
 
 .sidebar {
+	position: relative;
+	top: 0px;
+	bottom: 0px;
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,.9);
 	color: white;
