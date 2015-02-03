@@ -24,8 +24,9 @@ ul{
 	padding-right: 15px;
 }
 
-.sidebar-about h1 {
-	text-align: center;
+.sidebar-about h1, .sidebar-about p {
+	text-align: justify;
+
 }
 
 .img-profile {
