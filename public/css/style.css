@@ -1,10 +1,6 @@
 body {
 }
 
-ul{
-	list-style: none;
-}
-
 .sidebar {
 	position: fixed;
 	background: rgb(0,0,0);
