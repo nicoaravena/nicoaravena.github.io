@@ -1,6 +1,10 @@
 body {
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .sidebar {
 	position: fixed;
 	background: rgb(0,0,0);

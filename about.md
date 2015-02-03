@@ -7,7 +7,7 @@ Actualmente voy en 5to año de Ingeniería Civil en Informática en la [Universi
 
 Para conocer más de mi puedes encontrarme en:
 <blockquote>
-<p> [LinkedIn](http://cl.linkedin.com/in/dalanth) </p>
-<p> [GitHub](https://github.com/Dalanth) </p>
-<p> [@Dalanth1](https://twitter.com/Dalanth1) </p>
+<p>[LinkedIn/dalanth](http://cl.linkedin.com/in/dalanth)<br>
+[GitHub/Dalanth](https://github.com/Dalanth)</br>
+[@Dalanth1](https://twitter.com/Dalanth1)</p>
 </blockquote>
