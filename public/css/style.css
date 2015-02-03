@@ -1,11 +1,11 @@
 .sidebar {
+	position: fixed;
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,.9);
 	color: white;
 	padding-top: 20px;
 	padding-left: 20px;
-	top: 0;
-	bottom: 0;
+	height: 100%;
 }
 
 .sidebar-sticky {
