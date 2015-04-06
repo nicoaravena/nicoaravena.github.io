@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bienvenido
+title: Welcome to this site
 ---
 
-Se Bienvenido a este nuevo sitio!
+Greetings new traveler!

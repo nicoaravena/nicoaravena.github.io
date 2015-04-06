@@ -10,18 +10,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="list-unstyled sidebar-nav">
-        <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}"><a href="#home">
+        <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}"><a href="/">
           Home
         </a></li>
-        <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}"><a href="#about">
-          About
-        </a></li>
-
-        {% comment %}
-          The code below dynamically generates a sidebar nav of pages with
-          `layout: page` in the front-matter. See readme for usage.
-        {% endcomment %}
-
         {% assign pages_list = site.pages %}
         {% for node in pages_list %}
           {% if node.title != null %}
@@ -32,7 +23,6 @@
             {% endif %}
           {% endif %}
         {% endfor %}
-
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

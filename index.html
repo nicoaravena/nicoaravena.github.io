@@ -2,37 +2,20 @@
 layout: default
 title: Home
 ---
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div>
-    <div class="page-header">
-      <h1><a href="{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h1>
-      <span class="label label-info">{{ post.date | date_to_string }}</span>
+{% include sidebar.html %}
+<div id="home" class="sidebar-sticky">
+  <div id="about" class="sidebar-about">
+    <div class="jumbotron">
+      <h1>Welcome!</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="/public/images/profile.jpg" class="img-rounded img-profile">
+        </div>
+        <div class="col-md-8">
+          <h2>{{ site.title }}</h2>
+          <p class="lead">{{ site.description }}</p>
+        </div>
+      </div>
     </div>
-    {{ post.content }}
   </div>
-  <hr>
-  {% endfor %}
 </div>
-<center>
-<div class="btn-group" role="group">
-  {% if paginator.next_page %}
-    <a class="btn btn-default" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <a class="btn btn-default" disabled="disabled">Older</a>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="btn btn-default" href="/">Newer</a>
-    {% else %}
-      <a class="btn btn-default" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <a class="btn btn-default" disabled="disabled">Newer</a>
-  {% endif %}
-</div>
-</center>
