@@ -1,25 +1,17 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img alt="Nicolas Aravena" src="/public/images/favicon.png" class="img-rounded">
       </a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="list-unstyled sidebar-nav">
-        <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}"><a href="#home">
+      <ul class="nav navbar-nav">
+        <li class="{% if page.title == "Home" %} active{% endif %}"><a href="#home">
           Home
         </a></li>
-        <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}"><a href="#about">
+        <li class="{% if page.title == "Home" %} active{% endif %}"><a href="#about">
           About
         </a></li>
 
@@ -27,7 +19,7 @@
         {% for node in pages_list %}
           {% if node.title != null %}
             {% if node.layout == "page" %}
-              <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">
+              <li class="{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">
                 {{ node.title }}
               </a></li>
             {% endif %}
