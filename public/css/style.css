@@ -1,2 +1,11 @@
 body {
+	margin: auto;
+}
+
+#home, #blog {
+	width: 80%;
+}
+
+.navbar {
+	position: absolute;
 }
