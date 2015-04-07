@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acerca de
+title: About
 ---
 
 Civil Engineering in Information Systems student at [Universidad Austral de Chile](http://www.uach.cl).
