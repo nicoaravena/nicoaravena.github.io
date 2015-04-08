@@ -4,14 +4,14 @@ title: Home
 ---
 
 <div id="index">
-  <div id="home" class="section-home">
+  <div id="home" class="section section-home">
     <div class="jumbotron">
       <div class="page-header">
-        <h1>Welcome!</h1>
+        <center><h1>Welcome!</h1><center>
       </div>
     </div>
   </div>
-  <div id="about" class="section-about">
+  <div id="about" class="section section-about">
     <div class="jumbotron">
       <div class="page-header">
         <h1>About me <small></small></h1>
@@ -27,20 +27,9 @@ title: Home
       </div>
     </div>
   </div>
-  <div id="portfolio" class="section-about">
+  <div id="portfolio" class="section section-portfolio">
     <div class="jumbotron">
-      <div class="page-header">
-        <h1>Portfolio <small></small></h1>
-      </div>
-      <div class="row">
-        <div class="col-md-3 col-md-offset-1">
-          <img src="/public/images/profile.jpg" class="img-rounded img-profile">
-        </div>
-        <div class="col-md-7">
-          <h2>{{ site.title }}</h2>
-          <p class="lead">{% include portfolio.html %}</p>
-        </div>
-      </div>
+      {% include portfolio.html %}
     </div>
   </div>
 </div>

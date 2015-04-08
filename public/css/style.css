@@ -2,7 +2,7 @@ body {
 	margin: auto;
 }
 
-#about, #blog {
+#home, #about, #blog {
 	width: 80%;
 	margin: auto;
 }
