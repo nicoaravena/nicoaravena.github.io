@@ -1,10 +1,10 @@
-body {
-	margin: auto;
-}
-
 #blog {
 	width: 80%;
 	margin: auto;
+}
+
+#index, #blog {
+	margin-top: 50px;
 }
 
 .section {
@@ -19,15 +19,15 @@ body {
 }
 
 .section-home {
-	background-color: @brand-info;
+	background-color: #5bc0de;
 }
 
 .section-about {
-	background-color: @brand-warning;
+	background-color: #f0ad4e;
 }
 
 .section-portfolio {
-	background-color: @brand-danger;
+	background-color: #d9534f;
 }
 
 .navbar-brand img {
@@ -38,5 +38,5 @@ body {
 	text-align: center;
 	margin: auto;
 	border-bottom: 3px solid;
-	border-bottom-color: @brand-primary;
+	border-bottom-color: #337ab7;
 }
