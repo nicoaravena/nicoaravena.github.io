@@ -2,11 +2,22 @@ body {
 	margin: auto;
 }
 
-#home, #blog {
+#about, #blog {
 	width: 80%;
 	margin: auto;
 }
 
+.section {
+	width: 100%;
+	height: 100%;
+}
+
 .navbar-brand img {
-	max-width: 20px;
+	max-width: 25px;
+}
+
+.top-bar {
+	text-align: center;
+	margin: auto;
+	border-bottom: @brand-info 3px solid;
 }
