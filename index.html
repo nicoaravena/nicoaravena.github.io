@@ -7,24 +7,13 @@ title: Home
   <div id="home" class="section section-home">
     <div class="jumbotron">
       <div class="page-header">
-        <center><h1>Welcome!</h1><center>
+        <h1 class="text-center">Welcome!</h1>
       </div>
     </div>
   </div>
   <div id="about" class="section section-about">
     <div class="jumbotron">
-      <div class="page-header">
-        <h1>About me <small></small></h1>
-      </div>
-      <div class="row">
-        <div class="col-md-3 col-md-offset-1">
-          <img src="/public/images/profile.jpg" class="img-rounded img-profile">
-        </div>
-        <div class="col-md-7">
-          <h2>{{ site.title }}</h2>
-          <p class="lead">{% include about.html %}</p>
-        </div>
-      </div>
+      {% include about.html %}
     </div>
   </div>
   <div id="portfolio" class="section section-portfolio">

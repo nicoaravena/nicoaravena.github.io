@@ -10,7 +10,24 @@ body {
 .section {
 	width: 100vw;
 	height: 100vh;
-	padding: 0px 50px;
+}
+
+.section > .jumbotron {
+	padding: 0 50px;
+	background-color: white;
+	background-opacity: 50%;
+}
+
+.section-home {
+	background-color: @brand-info;
+}
+
+.section-about {
+	background-color: @brand-warning;
+}
+
+.section-portfolio {
+	background-color: @brand-danger;
 }
 
 .navbar-brand img {
@@ -21,5 +38,5 @@ body {
 	text-align: center;
 	margin: auto;
 	border-bottom: 3px solid;
-	border-bottom-color: @brand-info;
+	border-bottom-color: @brand-primary;
 }
