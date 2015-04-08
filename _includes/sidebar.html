@@ -14,6 +14,9 @@
         <li class="{% if page.title == "Home" %} active{% endif %}"><a href="#about">
           About
         </a></li>
+        <li class="{% if page.title == "Home" %} active{% endif %}"><a href="#portfolio">
+          Portfolio
+        </a></li>
 
         {% assign pages_list = site.pages %}
         {% for node in pages_list %}
