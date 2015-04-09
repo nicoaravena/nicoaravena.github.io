@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 #blog {
 	width: 80%;
 	margin: auto;
@@ -13,9 +17,9 @@
 }
 
 .section > .jumbotron {
+	height: 100%;
 	padding: 0 50px;
-	background-color: white;
-	background-opacity: 50%;
+	background-color: rgba(255,255,255,.5);
 }
 
 .section-home {
@@ -27,7 +31,11 @@
 }
 
 .section-portfolio {
-	background-color: #d9534f;
+	background: #d9534f url(./public/images/Valdivia.jpg) center fixed no-repeat;
+}
+
+.section-portfolio > .jumbotron {
+	background: none;
 }
 
 .navbar-brand img {
@@ -39,4 +47,14 @@
 	margin: auto;
 	border-bottom: 3px solid;
 	border-bottom-color: #337ab7;
+}
+
+.welcome {
+	top: 50%;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.footer {
+	padding: 20px 0px;
 }
