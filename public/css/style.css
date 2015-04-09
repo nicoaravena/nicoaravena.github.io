@@ -17,8 +17,8 @@ body {
 }
 
 .section > .jumbotron {
-	height: 100%;
-	padding: 0 50px;
+	height: 100vh;
+	padding: 30px 50px;
 	background-color: rgba(255,255,255,.5);
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .section-portfolio {
-	background: #d9534f url(./public/images/Valdivia.jpg) center fixed no-repeat;
+	background: #d9534f url("/public/images/Valdivia.jpg") center fixed no-repeat;
 }
 
 .section-portfolio > .jumbotron {
@@ -40,17 +40,16 @@ body {
 
 .navbar-brand img {
 	max-width: 25px;
+	border-radius: 2px;
 }
 
 .top-bar {
-	text-align: center;
-	margin: auto;
 	border-bottom: 3px solid;
 	border-bottom-color: #337ab7;
 }
 
 .welcome {
-	top: 50%;
+	text-align: middle;
 	color: #fff;
 	text-shadow: 2px 2px 2px #000;
 }
