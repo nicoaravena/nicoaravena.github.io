@@ -23,7 +23,7 @@ body {
 }
 
 .section-home {
-	background-color: #5bc0de;
+	background-color: #5bc0de url("/public/images/Valdivia.jpg") center fixed no-repeat;
 }
 
 .section-about {
@@ -31,11 +31,11 @@ body {
 }
 
 .section-portfolio {
-	background: #d9534f url("/public/images/Valdivia.jpg") center fixed no-repeat;
+	background: #d9534f;
 }
 
-.section-portfolio > .jumbotron {
-	background: none;
+.section-home > .jumbotron {
+	background: rgba(0,0,0,.3);
 }
 
 .navbar-brand img {
@@ -50,7 +50,7 @@ body {
 
 .welcome {
 	text-align: middle;
-	color: #fff;
+	color: #fff !important;
 	text-shadow: 2px 2px 2px #000;
 }
 
