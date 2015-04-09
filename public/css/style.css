@@ -16,22 +16,32 @@ body {
 	height: 100vh;
 }
 
+.section-home {
+	height: auto;
+}
+
 .section > .jumbotron {
+	width: 80%;
 	height: 100vh;
 	padding: 30px 50px;
 	background: none;
 }
 
 .section-home {
-	background: rgba(0,0,0,.3) url("/public/images/Valdivia.jpg") center fixed no-repeat;
+	/*background: rgba(0,0,0,.3) url("/public/images/Valdivia.jpg") center fixed no-repeat;
+	background-size: 100%;*/
 }
 
 .section-about {
+	background: url("/public/images/Valdivia.jpg") center fixed no-repeat;
+	background-size: 100%;
 	background-color: #f0ad4e;
 }
 
 .section-portfolio {
-	background: #d9534f;
+	background: url("/public/images/portfolioWallpaper.jpg") center fixed no-repeat;
+	background-size: 100%;
+	background-color: #d9534f;
 }
 /*
 .section-home > .jumbotron {
@@ -50,10 +60,19 @@ body {
 
 .welcome {
 	text-align: middle;
-	color: #fff !important;
-	text-shadow: 2px 2px 2px #000;
+	color: #000 !important;
+	/*text-shadow: 2px 2px 2px #000;*/
 }
 
 .footer {
 	padding: 20px 0px;
+}
+
+.project {
+	padding: 15px 10px;
+}
+
+.white-shadow {
+	color: #fff !important;
+	text-shadow: 2px 2px 2px #000;
 }
