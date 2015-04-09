@@ -19,11 +19,11 @@ body {
 .section > .jumbotron {
 	height: 100vh;
 	padding: 30px 50px;
-	background-color: rgba(255,255,255,.5);
+	background: none;
 }
 
 .section-home {
-	background-color: #5bc0de url("/public/images/Valdivia.jpg") center fixed no-repeat;
+	background-color: rgba(0,0,0,.3) url("/public/images/Valdivia.jpg") center fixed no-repeat;
 }
 
 .section-about {
@@ -35,7 +35,7 @@ body {
 }
 
 .section-home > .jumbotron {
-	background: rgba(0,0,0,.3);
+	background: none;
 }
 
 .navbar-brand img {
