@@ -36,11 +36,16 @@ body {
 .section-about {
 	background: url("/public/images/Valdivia.jpg") center fixed no-repeat;
 	background-size: 100% auto;
-	background-color: #f0ad4e;
+	background-color: #000;
 }
 
 .section-about > .jumbotron {
-	background: rgba(0,0,0,.2);
+	background: none;
+}
+
+.section-about > .black-bg {
+	background: rgba(0,0,0,.3);
+	border-bottom: 3px;
 }
 
 .section-portfolio {
