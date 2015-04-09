@@ -23,7 +23,7 @@ body {
 }
 
 .section-home {
-	background-color: rgba(0,0,0,.3) url("/public/images/Valdivia.jpg") center fixed no-repeat;
+	background: rgba(0,0,0,.3) url("/public/images/Valdivia.jpg") center fixed no-repeat;
 }
 
 .section-about {
@@ -33,11 +33,11 @@ body {
 .section-portfolio {
 	background: #d9534f;
 }
-
+/*
 .section-home > .jumbotron {
 	background: none;
 }
-
+*/
 .navbar-brand img {
 	max-width: 25px;
 	border-radius: 2px;
