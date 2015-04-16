@@ -34,13 +34,14 @@ body {
 }
 
 .section-about {
-	background: url("/public/images/Valdivia.jpg") center fixed no-repeat;
+	background: url("/public/images/Valdivia.jpg") center no-repeat;
 	background-size: 100% auto;
 	background-color: #000;
 }
 
 .section-about > .jumbotron {
-	background: none;
+	background: url("/public/images/portfolioWallpaper.jpg") center fixed no-repeat;
+	background-size: 100% auto;
 }
 
 .section-about > .black-bg {
@@ -71,6 +72,11 @@ body {
 .welcome {
 	text-align: middle;
 	color: #000 !important;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	right: 50%;
+	bottom: 50%;
 	/*text-shadow: 2px 2px 2px #000;*/
 }
 
@@ -85,4 +91,10 @@ body {
 .white-shadow {
 	color: #fff !important;
 	text-shadow: 2px 2px 2px #000;
+}
+
+.orange-line {
+	width: 100%;
+	height: 5px;
+	border-top: 5px solid #f0ad4e;
 }
