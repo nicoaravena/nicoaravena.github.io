@@ -58,7 +58,7 @@ body {
 
 .section-portfolio {
 	background: url("/public/images/portfolioWallpaper.jpg") center fixed no-repeat;
-	background-size: 100% auto;
+	background-size: auto 100%;
 	background-color: #d9534f;
 }
 /*
@@ -97,6 +97,10 @@ body {
 .white-shadow {
 	color: #fff !important;
 	text-shadow: 2px 2px 2px #000;
+}
+
+.white-shadow a {
+	text-shadow: none;
 }
 
 .orange-line {
