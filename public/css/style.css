@@ -1,5 +1,18 @@
+/*
+@brand-primary: darken(#428bca, 6.5%); // #337ab7
+@brand-success: #5cb85c;
+@brand-info:    #5bc0de;
+@brand-warning: #f0ad4e;
+@brand-danger:  #d9534f;
+*/
+
 body {
 	overflow-x: hidden;
+}
+
+
+a, a:hover, a:visited, a:focus {
+	color: #f0ad4e;
 }
 
 #blog {
@@ -97,10 +110,6 @@ body {
 .white-shadow {
 	color: #fff !important;
 	text-shadow: 2px 2px 2px #000;
-}
-
-.white-shadow a {
-	text-shadow: none;
 }
 
 .orange-line {
