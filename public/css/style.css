@@ -30,12 +30,12 @@ body {
 
 .section-home {
 	background: url("/public/images/welcome.jpg") center fixed no-repeat;
-	background-size: 100% auto;
+	background-size: auto 100%;
 }
 
 .section-about {
 	background: url("/public/images/Valdivia.jpg") center no-repeat;
-	background-size: 100% auto;
+	background-size: auto 100%;
 	background-color: #000;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .img-profile {
-	margin-top: 33px;
+	margin-top: 65px;
 }
 
 .black-bg {
