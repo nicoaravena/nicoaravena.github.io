@@ -44,7 +44,7 @@ body {
 }
 
 .section-about > .black-bg {
-	background: rgba(0,0,0,.3);
+	background: rgba(0,0,0,.4);
 	border-bottom: 3px;
 }
 
@@ -70,15 +70,12 @@ body {
 
 .welcome {
 	text-align: center;
-	color: #000 !important;
-	position: absolute;
+	color: #fff !important;
+	position: relative;
 	height: 100%;
 	width: 100%;
 	top: 50%;
-	left: 50%;
-	right: 50%;
-	bottom: 50%;
-	/*text-shadow: 2px 2px 2px #000;*/
+	text-shadow: 2px 2px 2px #000;
 }
 
 .footer {
@@ -96,6 +93,30 @@ body {
 
 .orange-line {
 	width: 100%;
-	height: 5px;
+	height: 3px;
 	background: #f0ad4e;
+}
+
+.red-line {
+	width: 100%;
+	height: 3px;
+	background: #d9534f;
+}
+
+.blue-line {
+	width: 100%;
+	height: 3px;
+	background: #337ab7;
+}
+
+.green-line {
+	width: 100%;
+	height: 3px;
+	background: #5cb85c;
+}
+
+.light-blue-line {
+	width: 100%;
+	height: 3px;
+	background: #5bc0de;
 }
