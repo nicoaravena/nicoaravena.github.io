@@ -12,7 +12,7 @@ body {
 }
 
 .section {
-	width: 100vw;
+	min-width: 100vw;
 	min-height: 100vh;
 }
 
@@ -43,9 +43,17 @@ body {
 	background: none;
 }
 
-.section-about > .black-bg {
+.page-header {
+	border: none;
+}
+
+.img-profile {
+	margin-top: 33px;
+}
+
+.black-bg {
 	background: rgba(0,0,0,.4);
-	border-bottom: 3px;
+	border-radius: 3px;
 }
 
 .section-portfolio {
