@@ -77,13 +77,9 @@ a, a:hover, a:visited, a:focus {
 
 .navbar {
 	margin-bottom: 0px !important;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 
 .navbar .container-fluid {
-	margin-left: auto;
-	margin-right: auto;
 	width: 80%;
 }
 
@@ -108,12 +104,12 @@ a, a:hover, a:visited, a:focus {
 }
 
 .footer {
-	padding: 20px 15px;
-	padding-bottom: 10px;
 	background: #eee;
 }
 
 .footer .footer-content{
+	padding: 20px 15px;
+	padding-bottom: 10px;
 	background: #eee;
 	margin: auto;
 	width: 80%;
@@ -181,5 +177,5 @@ a, a:hover, a:visited, a:focus {
 }
 
 .btn:hover {
-	background: #5bc0de;
+	background: #f0ad4e;
 }
