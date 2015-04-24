@@ -113,8 +113,7 @@ a, a:hover, a:visited, a:focus {
 }
 
 .footer .copyright {
-	height: 100%;
-	vertical-align: middle;
+	margin-top: 20px;
 }
 
 .project {
@@ -135,7 +134,7 @@ a, a:hover, a:visited, a:focus {
 
 .white-shadow {
 	color: #fff !important;
-	text-shadow: 2px 2px 2px #000;
+	text-shadow: 3px 3px 5px #000;
 }
 
 .orange-line {
