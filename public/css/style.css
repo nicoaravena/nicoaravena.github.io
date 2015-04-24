@@ -52,13 +52,10 @@ a, a:hover, a:visited, a:focus {
 	border: none;
 }
 
-.img-profile {
-	margin-top: 65px;
-}
-
-.black-bg {
+.about-bg {
 	background: rgba(0,0,0,.4);
 	border-radius: 3px;
+	padding: 10px 15px; 
 }
 
 .section-portfolio {
@@ -73,7 +70,7 @@ a, a:hover, a:visited, a:focus {
 }
 */
 
-.navbar {
+.navbar .container-fluid {
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -84,10 +81,10 @@ a, a:hover, a:visited, a:focus {
 	border-radius: 2px;
 }
 
-.top-bar {
+/*.top-bar {
 	border-bottom: 3px solid;
 	border-bottom-color: #337ab7;
-}
+}*/
 
 .welcome {
 	text-align: center;
@@ -102,14 +99,20 @@ a, a:hover, a:visited, a:focus {
 .footer {
 	padding: 20px 0px;
 	background: #eee;
+	margin: auto;
+	width: 80%;
+}
+
+.footer .copyright {
+	text-align: middle;
 }
 
 .project {
 	padding: 15px 10px;
 	opacity: 0.7;
-	transition: 1s;
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
 }
 
 .project:hover {
