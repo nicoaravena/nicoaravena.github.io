@@ -20,17 +20,8 @@ a, a:hover, a:visited, a:focus {
 	margin: auto;
 }
 
-#index, #blog {
-	margin-top: 50px;
-}
-
 .section {
 	min-width: 100vw;
-	min-height: 100vh;
-}
-
-.section-home {
-	height: auto;
 }
 
 .section > .jumbotron {
@@ -42,14 +33,15 @@ a, a:hover, a:visited, a:focus {
 }
 
 .section-home {
-	background: url("/public/images/welcome.jpg") center fixed no-repeat;
-	background-size: 100%;
+	height: auto;
+	background: none;
 }
 
 .section-about {
 	background: url("/public/images/Valdivia.jpg") center no-repeat;
 	background-size: 100%;
 	background-color: #000;
+	min-height: 100vh;
 }
 
 .section-about > .jumbotron {
@@ -72,13 +64,21 @@ a, a:hover, a:visited, a:focus {
 .section-portfolio {
 	background: url("/public/images/portfolioWallpaper.jpg") center fixed no-repeat;
 	background-size: 100%;
-	background-color: #d9534f;
+	background-color: #eee;
+	min-height: 100vh;
 }
 /*
 .section-home > .jumbotron {
 	background: none;
 }
 */
+
+.navbar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
 .navbar-brand img {
 	max-width: 25px;
 	border-radius: 2px;
@@ -101,10 +101,19 @@ a, a:hover, a:visited, a:focus {
 
 .footer {
 	padding: 20px 0px;
+	background: #eee;
 }
 
 .project {
 	padding: 15px 10px;
+	opacity: 0.7;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+}
+
+.project:hover {
+	opacity: 1;
 }
 
 .white-shadow {

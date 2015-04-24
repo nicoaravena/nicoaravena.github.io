@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top text-center">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="/">
@@ -7,15 +7,9 @@
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="{% if page.title == "Home" %} active{% endif %}"><a href="/">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="{% if page.title == "Home" %} active{% endif %}"><a href="{{ site.url }}">
           Home
-        </a></li>
-        <li class="{% if page.title == "Home" %} active{% endif %}"><a href="#about">
-          About
-        </a></li>
-        <li class="{% if page.title == "Home" %} active{% endif %}"><a href="#portfolio">
-          Portfolio
         </a></li>
 
         {% assign pages_list = site.pages %}
