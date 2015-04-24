@@ -108,7 +108,7 @@ a, a:hover, a:visited, a:focus {
 }
 
 .footer .footer-content{
-	padding: 20px 35px;
+	padding: 20px 50px;
 	padding-bottom: 10px;
 	background: #eee;
 	margin: auto;
@@ -170,6 +170,10 @@ a, a:hover, a:visited, a:focus {
 	background: #5bc0de;
 }
 
+a.btn {
+	color: #333;
+}
+
 .btn {
 	transition: .3s;
 	-webkit-transition: .3s;
@@ -179,4 +183,8 @@ a, a:hover, a:visited, a:focus {
 .btn:hover {
 	background: #f0ad4e;
 	color: #fff;
+}
+
+.collapse.in {
+	margin-top: 5px;
 }
