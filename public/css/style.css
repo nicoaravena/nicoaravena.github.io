@@ -185,6 +185,6 @@ a.btn {
 	color: #fff;
 }
 
-.collapse.in {
+.collapse, .collapse.in {
 	margin-top: 5px;
 }
