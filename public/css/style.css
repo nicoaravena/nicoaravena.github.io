@@ -178,4 +178,5 @@ a, a:hover, a:visited, a:focus {
 
 .btn:hover {
 	background: #f0ad4e;
+	color: #fff;
 }
