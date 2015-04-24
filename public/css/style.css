@@ -134,7 +134,7 @@ a, a:hover, a:visited, a:focus {
 
 .white-shadow {
 	color: #fff !important;
-	text-shadow: 3px 3px 5px #000;
+	text-shadow: 4px 4px 10px #000;
 }
 
 .orange-line {
