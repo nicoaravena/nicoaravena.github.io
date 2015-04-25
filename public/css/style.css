@@ -192,8 +192,8 @@ a.btn {
 #welcome {
 	position: absolute;
 	margin: auto;
-	width: 70%;
-	left: 50%;
-	right: 50%;
+	width: 50%;
+	left: 25%;
+	right: 25%;
 	top: 1%;
 }
