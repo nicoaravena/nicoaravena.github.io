@@ -188,3 +188,10 @@ a.btn {
 .description {
 	margin-top: 5px;
 }
+
+#welcome {
+	position: absolute;
+	margin: auto;
+	width: 70%;
+	margin-top: 50px;
+}
