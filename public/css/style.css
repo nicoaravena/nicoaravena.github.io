@@ -38,6 +38,7 @@ a, a:hover, a:visited, a:focus {
 }
 
 .section-about {
+	/* Photo obtained from http://valdiviaenunclick.cl/ */
 	background: url("/public/images/Valdivia.png") center no-repeat;
 	background-size: 100%;
 	background-color: #000;
@@ -54,8 +55,8 @@ a, a:hover, a:visited, a:focus {
 }
 
 .about-bg {
-	background: rgba(0,0,0,.4);
-	border-radius: 3px;
+	background: none; /* rgba(0,0,0,.4) 
+	border-radius: 3px; */
 	padding: 30px 15px; 
 }
 
