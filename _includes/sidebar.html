@@ -15,7 +15,7 @@
         {% for node in pages_list %}
           {% if node.title != null %}
             {% if node.layout == "page" %}
-              <li class="{% if page.url == node.url %} active{% endif %} disabled"><a href="{{ node.url }}" disabled>
+              <li class="hidden {% if page.url == node.url %} active{% endif %} disabled"><a href="{{ node.url }}" disabled>
                 {{ node.title }}
               </a></li>
             {% endif %}

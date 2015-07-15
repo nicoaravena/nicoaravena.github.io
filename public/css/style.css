@@ -38,7 +38,7 @@ a, a:hover, a:visited, a:focus {
 }
 
 .section-about {
-	background: url("/public/images/Valdivia.jpg") center no-repeat;
+	background: url("/public/images/Valdivia.png") center no-repeat;
 	background-size: 100%;
 	background-color: #000;
 	min-height: 100vh;
@@ -64,7 +64,7 @@ a, a:hover, a:visited, a:focus {
 }
 
 .section-portfolio {
-	background: url("/public/images/portfolioWallpaper.jpg") center fixed no-repeat;
+	background: #eee center fixed no-repeat;
 	background-size: 100%;
 	background-color: #eee;
 	min-height: 100vh;
