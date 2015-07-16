@@ -111,7 +111,7 @@ a, a:hover, a:visited, a:focus {
 .footer .footer-content{
 	padding: 20px 50px;
 	padding-bottom: 10px;
-	background: #333;
+	background: #101010;
 	margin: auto;
 	width: 80%;
 }
@@ -143,6 +143,14 @@ a, a:hover, a:visited, a:focus {
 .white-shadow {
 	color: #fff !important;
 	text-shadow: 4px 4px 10px #000;
+}
+
+a.white-shadow:hover {
+	text-decoration: underline;
+}
+
+.black {
+	color: #101010 !important;
 }
 
 .orange-line {
