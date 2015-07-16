@@ -105,15 +105,19 @@ a, a:hover, a:visited, a:focus {
 }
 
 .footer {
-	background: #eee;
+	background: #333;
 }
 
 .footer .footer-content{
 	padding: 20px 50px;
 	padding-bottom: 10px;
-	background: #eee;
+	background: #333;
 	margin: auto;
 	width: 80%;
+}
+
+.footer *{
+	color: #eee;
 }
 
 .footer .copyright {
