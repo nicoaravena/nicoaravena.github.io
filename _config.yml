@@ -11,6 +11,7 @@ tagline:          'Free lance and stuff'
 description:      'Civil Engineering in Information Systems student'
 url:              http://nicoaravena.me
 timezone:         America/Santiago
+markdown:         kramdown
 
 author:
   name:           'Nicolas Aravena'
