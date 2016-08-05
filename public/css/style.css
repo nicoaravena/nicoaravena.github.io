@@ -28,10 +28,12 @@ h1, h2, h3, h4, h5, h6 {
 a, a:visited, a:focus {
 	color: #eee;
 	transition: all .40s ease-in-out;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #FF8C00;
+	text-decoration: none;
 }
 
 #blog {
@@ -159,16 +161,12 @@ a:hover {
 }
 
 .white-shadow {
-	color: #fff !important;
-	text-shadow: 4px 4px 10px #000;
-}
-
-a.white-shadow:hover {
-	text-decoration: underline;
+	color: #fff;
+	text-shadow: 2px 2px 3px #333;
 }
 
 .black {
-	color: #101010 !important;
+	color: #101010;
 }
 
 .orange-line {

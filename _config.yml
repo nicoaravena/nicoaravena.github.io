@@ -12,6 +12,7 @@ description:      'Civil Engineering in Information Systems student'
 url:              http://nicoaravena.me
 timezone:         America/Santiago
 markdown:         kramdown
+highlighter:      rouge
 
 author:
   name:           'Nicolas Aravena'
