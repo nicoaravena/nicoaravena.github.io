@@ -6,10 +6,23 @@
 @brand-danger:  #d9534f;
 */
 
-body {
-	overflow-x: hidden;
+html {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
+body {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+* {
+  transition: all .40s ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400; }
 
 a, a:hover, a:visited, a:focus {
 	color: #f0ad4e;
@@ -39,10 +52,10 @@ a, a:hover, a:visited, a:focus {
 
 .section-about {
 	/* Photo obtained from http://valdiviaenunclick.cl/ */
-	background: url("/public/images/Valdivia.png") center no-repeat;
+	background: url("/public/images/Valdivia.png") fixed center no-repeat;
 	background-size: 100%;
-	background-color: #000;
-	min-height: 100vh;
+	background-color: #eee;
+	min-height: 90vh;
 }
 
 .section-about > .jumbotron {
