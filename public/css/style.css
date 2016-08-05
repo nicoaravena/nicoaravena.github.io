@@ -160,9 +160,23 @@ a:hover {
 	opacity: 1;
 }
 
+h1.white-shadow,
+h2.white-shadow,
+h3.white-shadow,
+h4.white-shadow,
+h5.white-shadow,
+h6.white-shadow {
+	color: #eee !important;
+}
+
+
 .white-shadow {
 	color: #fff;
 	text-shadow: 2px 2px 3px #333;
+}
+
+.white-shadow:hover {
+	text-shadow: unset;
 }
 
 .black {
