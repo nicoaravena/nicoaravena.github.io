@@ -254,4 +254,7 @@ a.btn {
     &.fa-envelope {
         background: #FF8C00;
     }
+    &:hover {
+        opacity: 1;
+    }
 }
