@@ -28,8 +28,7 @@ h6 {
   h4.white-shadow,
   h5.white-shadow,
   h6.white-shadow {
-    color: #eee !important;
-    text-decoration: underline; }
+    color: #eee !important; }
 
 a:visited, a:focus {
   color: #eee;
