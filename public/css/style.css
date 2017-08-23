@@ -6,7 +6,7 @@
 @brand-danger:  #d9534f;
 */
 * {
-  transition: all .40s ease-in-out; }
+  transition: all .20s ease-in-out; }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -38,18 +38,6 @@ a:hover {
   color: #FF8C00;
   text-decoration: none; }
 
-#blog {
-  width: 80%;
-  margin: auto; }
-
-.section {
-  min-width: 100vw; }
-  .section .jumbotron {
-    width: 80%;
-    margin: auto;
-    padding: 30px 50px;
-    background: none; }
-
 .section-home {
   height: auto;
   background: none; }
@@ -59,9 +47,10 @@ a:hover {
   background: url("/public/images/Valdivia.png") fixed center no-repeat;
   background-size: auto 140%;
   background-color: #eee;
-  min-height: 85vh; }
+  min-height: 100vmin; }
   .section-about .jumbotron {
-    background: none; }
+    background: none;
+    min-height: 50vmin; }
 
 .page-header {
   border: none; }
@@ -169,9 +158,6 @@ a:hover {
   height: 3px;
   background: #5bc0de; }
 
-a.btn {
-  color: #333; }
-
 .btn {
   transition: .3s;
   -webkit-transition: .3s;
@@ -180,31 +166,29 @@ a.btn {
     background: #f0ad4e;
     color: #fff; }
 
+a.btn {
+  color: #333; }
+
 .description {
   margin-top: 5px; }
 
-#welcome {
-  position: absolute;
-  margin: auto;
-  width: 50%;
-  left: 25%;
-  right: 25%;
-  top: 1%; }
-
-.fa {
-  color: #f5f5f5;
-  opacity: 0.7;
-  padding: 3px;
-  border-radius: 2px; }
-  .fa.fa-twitter {
-    background: #55acee; }
-  .fa.fa-linkedin {
-    background: #0077B5; }
-  .fa.fa-github {
-    background: #4C4A48; }
-  .fa.fa-envelope {
-    background: #FF8C00; }
-  .fa:hover {
-    opacity: 1; }
+.socicon {
+  margin-left: 5px;
+  margin-right: 5px; }
+  .socicon .fa {
+    color: #f5f5f5;
+    opacity: 0.7;
+    padding: 3px 5px;
+    border-radius: 1px; }
+    .socicon .fa.fa-twitter {
+      background: #55acee; }
+    .socicon .fa.fa-linkedin {
+      background: #0077B5; }
+    .socicon .fa.fa-github {
+      background: #4C4A48; }
+    .socicon .fa.fa-envelope {
+      background: #FF8C00; }
+    .socicon .fa:hover {
+      opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */
