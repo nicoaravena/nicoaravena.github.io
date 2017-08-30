@@ -59,6 +59,7 @@ a {
     .jumbotron {
         background: none;
         min-height: 50vmin;
+        margin-bottom: 0;
     }
 }
 
@@ -129,7 +130,6 @@ a {
         padding-bottom: 10px;
         background: #101010;
         margin: auto;
-        width: 80%;
     }
     * {
         color: #eee;
@@ -214,8 +214,6 @@ a.btn {
 }
 
 .socicon {
-    margin-left: 5px;
-    margin-right: 5px;
     .fa {
         color: #f5f5f5;
         opacity: 0.7;

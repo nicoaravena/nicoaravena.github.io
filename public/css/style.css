@@ -50,7 +50,8 @@ a:hover {
   min-height: 100vmin; }
   .section-about .jumbotron {
     background: none;
-    min-height: 50vmin; }
+    min-height: 50vmin;
+    margin-bottom: 0; }
 
 .page-header {
   border: none; }
@@ -106,8 +107,7 @@ a:hover {
     padding: 20px 50px;
     padding-bottom: 10px;
     background: #101010;
-    margin: auto;
-    width: 80%; }
+    margin: auto; }
   .footer * {
     color: #eee; }
   .footer .copyright {
@@ -172,23 +172,20 @@ a.btn {
 .description {
   margin-top: 5px; }
 
-.socicon {
-  margin-left: 5px;
-  margin-right: 5px; }
-  .socicon .fa {
-    color: #f5f5f5;
-    opacity: 0.7;
-    padding: 3px 5px;
-    border-radius: 1px; }
-    .socicon .fa.fa-twitter {
-      background: #55acee; }
-    .socicon .fa.fa-linkedin {
-      background: #0077B5; }
-    .socicon .fa.fa-github {
-      background: #4C4A48; }
-    .socicon .fa.fa-envelope {
-      background: #FF8C00; }
-    .socicon .fa:hover {
-      opacity: 1; }
+.socicon .fa {
+  color: #f5f5f5;
+  opacity: 0.7;
+  padding: 3px 5px;
+  border-radius: 1px; }
+  .socicon .fa.fa-twitter {
+    background: #55acee; }
+  .socicon .fa.fa-linkedin {
+    background: #0077B5; }
+  .socicon .fa.fa-github {
+    background: #4C4A48; }
+  .socicon .fa.fa-envelope {
+    background: #FF8C00; }
+  .socicon .fa:hover {
+    opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */
