@@ -178,40 +178,43 @@ a.btn {
 .description {
   margin-top: 5px; }
 
-.socicon .fa,
-.socicon .fab,
-.socicon .fas {
-  color: #f5f5f5;
-  opacity: 1;
-  padding: 3px 5px;
-  border-radius: 1px; }
-  .socicon .fa.fa-twitter, .socicon .fa.fa-twitter-square,
-  .socicon .fab.fa-twitter,
-  .socicon .fab.fa-twitter-square,
-  .socicon .fas.fa-twitter,
-  .socicon .fas.fa-twitter-square {
-    color: #55acee; }
-  .socicon .fa.fa-linkedin, .socicon .fa.fa-linkedin-square,
-  .socicon .fab.fa-linkedin,
-  .socicon .fab.fa-linkedin-square,
-  .socicon .fas.fa-linkedin,
-  .socicon .fas.fa-linkedin-square {
-    color: #0077B5; }
-  .socicon .fa.fa-github, .socicon .fa.fa-github-square, .socicon .fa.github-alt,
-  .socicon .fab.fa-github,
-  .socicon .fab.fa-github-square,
-  .socicon .fab.github-alt,
-  .socicon .fas.fa-github,
-  .socicon .fas.fa-github-square,
-  .socicon .fas.github-alt {
-    color: #4C4A48; }
-  .socicon .fa.fa-envelope,
-  .socicon .fab.fa-envelope,
-  .socicon .fas.fa-envelope {
-    color: #FF8C00; }
-  .socicon .fa:hover,
-  .socicon .fab:hover,
-  .socicon .fas:hover {
-    opacity: 1; }
+.socicon {
+  display: inline-block;
+  margin: 0 3px; }
+  .socicon .fa,
+  .socicon .fab,
+  .socicon .fas {
+    color: #f5f5f5;
+    opacity: 1;
+    padding: .4em;
+    border-radius: 0.2em; }
+    .socicon .fa.fa-twitter, .socicon .fa.fa-twitter-square,
+    .socicon .fab.fa-twitter,
+    .socicon .fab.fa-twitter-square,
+    .socicon .fas.fa-twitter,
+    .socicon .fas.fa-twitter-square {
+      background: #55acee; }
+    .socicon .fa.fa-linkedin, .socicon .fa.fa-linkedin-in,
+    .socicon .fab.fa-linkedin,
+    .socicon .fab.fa-linkedin-in,
+    .socicon .fas.fa-linkedin,
+    .socicon .fas.fa-linkedin-in {
+      background: #0077B5; }
+    .socicon .fa.fa-github, .socicon .fa.fa-github-square, .socicon .fa.github-alt,
+    .socicon .fab.fa-github,
+    .socicon .fab.fa-github-square,
+    .socicon .fab.github-alt,
+    .socicon .fas.fa-github,
+    .socicon .fas.fa-github-square,
+    .socicon .fas.github-alt {
+      background: #4C4A48; }
+    .socicon .fa.fa-envelope,
+    .socicon .fab.fa-envelope,
+    .socicon .fas.fa-envelope {
+      background: #FF8C00; }
+    .socicon .fa:hover,
+    .socicon .fab:hover,
+    .socicon .fas:hover {
+      opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */

@@ -223,28 +223,30 @@ a.btn {
 }
 
 .socicon {
+    display: inline-block;
+    margin: 0 3px;
     .fa,
     .fab,
     .fas {
         color: #f5f5f5;
         opacity: 1;
-        padding: 3px 5px;
-        border-radius: 1px;
+        padding: .4em;
+        border-radius: 0.2em;
         &.fa-twitter,
         &.fa-twitter-square {
-            color: #55acee;
+            background: #55acee;
         }
         &.fa-linkedin,
-        &.fa-linkedin-square {
-            color: #0077B5;
+        &.fa-linkedin-in {
+            background: #0077B5;
         }
         &.fa-github,
         &.fa-github-square,
         &.github-alt {
-            color: #4C4A48;
+            background: #4C4A48;
         }
         &.fa-envelope {
-            color: #FF8C00;
+            background: #FF8C00;
         }
         &:hover {
             opacity: 1;
