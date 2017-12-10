@@ -139,7 +139,9 @@ a {
         color: #eee;
     }
     .copyright {
-        margin-top: 20px;
+        p {
+            margin-bottom: 0;
+        }
     }
 }
 

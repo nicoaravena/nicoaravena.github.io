@@ -113,8 +113,8 @@ a:hover {
     margin: auto; }
   .footer * {
     color: #eee; }
-  .footer .copyright {
-    margin-top: 20px; }
+  .footer .copyright p {
+    margin-bottom: 0; }
 
 .project {
   padding: 15px 10px;
