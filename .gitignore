@@ -42,3 +42,4 @@ validation-report.json
 node_modules
 .sass_scss
 .sass_cache/
+node_modules/
