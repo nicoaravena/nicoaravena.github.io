@@ -71,7 +71,7 @@ a {
     background: none;
     /* rgba(0,0,0,.4) 
 	border-radius: 3px; */
-    padding: 30px 15px;
+    padding: 80px 15px;
 }
 
 .about-bg h2 {
@@ -92,18 +92,18 @@ a {
 }
 */
 
-.navbar {
+.header {
     margin-bottom: 0px !important;
     position: absolute;
     top: 0;
     background: transparent;
     width: 100%;
+    img {
+        max-width: 25px;
+        border-radius: 2px;
+    }
 }
 
-.navbar-brand img {
-    max-width: 25px;
-    border-radius: 2px;
-}
 
 
 /*.top-bar {
