@@ -224,13 +224,13 @@ a.btn {
 
 .socicon {
     display: inline-block;
-    margin: 0 3px;
+    margin: 0 1px;
     .fa,
     .fab,
     .fas {
         color: #f5f5f5;
         opacity: 1;
-        padding: .4em;
+        padding: .3em;
         border-radius: 0.2em;
         &.fa-twitter,
         &.fa-twitter-square {
@@ -242,7 +242,7 @@ a.btn {
         }
         &.fa-github,
         &.fa-github-square,
-        &.github-alt {
+        &.fa-github-alt {
             background: #4C4A48;
         }
         &.fa-envelope {
