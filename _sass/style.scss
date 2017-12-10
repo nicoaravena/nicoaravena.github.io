@@ -97,9 +97,7 @@ a {
     position: absolute;
     top: 0;
     background: transparent;
-    .container-fluid {
-        width: 80%;
-    }
+    width: 100%;
 }
 
 .navbar-brand img {
@@ -124,11 +122,14 @@ a {
 }
 
 .footer {
-    background: #101010;
+    background: transparent;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     .footer-content {
         padding: 20px 50px;
         padding-bottom: 10px;
-        background: #101010;
+        background: transparent;
         margin: auto;
     }
     * {
@@ -216,20 +217,20 @@ a.btn {
 .socicon {
     .fa {
         color: #f5f5f5;
-        opacity: 0.7;
+        opacity: 0.8;
         padding: 3px 5px;
         border-radius: 1px;
         &.fa-twitter {
-            background: #55acee;
+            color: #55acee;
         }
         &.fa-linkedin {
-            background: #0077B5;
+            color: #0077B5;
         }
         &.fa-github {
-            background: #4C4A48;
+            color: #4C4A48;
         }
         &.fa-envelope {
-            background: #FF8C00;
+            color: #FF8C00;
         }
         &:hover {
             opacity: 1;
