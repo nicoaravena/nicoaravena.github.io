@@ -82,9 +82,11 @@ a:hover {
   top: 0;
   background: transparent;
   width: 100%; }
-  .header img {
-    max-width: 25px;
-    border-radius: 2px; }
+  .header .header-content {
+    padding: 20px 50px 10px; }
+    .header .header-content img {
+      max-width: 25px;
+      border-radius: 2px; }
 
 /*.top-bar {
 	border-bottom: 3px solid;

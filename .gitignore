@@ -14,7 +14,6 @@ _site
 *.zip
 *.vi
 *~
-*.css.map
 
 # OS or Editor folders
 .DS_Store

@@ -98,9 +98,12 @@ a {
     top: 0;
     background: transparent;
     width: 100%;
-    img {
-        max-width: 25px;
-        border-radius: 2px;
+    .header-content {
+        padding: 20px 50px 10px;
+        img {
+            max-width: 25px;
+            border-radius: 2px;
+        }
     }
 }
 
