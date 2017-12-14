@@ -44,7 +44,7 @@ a:hover {
 
 .section-about {
   /* Photo obtained from http://valdiviaenunclick.cl/ */
-  background-image: linear-gradient(#fff, #999), url("/public/images/Valdivia.png");
+  background-image: linear-gradient(#fff, #999), url("/public/images/Valdivia.jpg");
   background-size: cover;
   background-color: #999;
   background-repeat: no-repeat;
