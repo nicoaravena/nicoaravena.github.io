@@ -31,7 +31,7 @@ h6 {
     color: #eee !important; }
 
 a:visited, a:focus {
-  color: #eee;
+  color: #cc7000;
   transition: all .40s ease-in-out;
   text-decoration: none; }
 a:hover {
@@ -106,14 +106,15 @@ a:hover {
 
 .footer {
   background: transparent;
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
+  position: relative; }
   .footer .footer-content {
     padding: 20px 50px;
     padding-bottom: 10px;
     background: transparent;
-    margin: auto; }
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
   .footer * {
     color: #eee; }
   .footer .copyright p {
@@ -179,8 +180,7 @@ a.btn {
   margin-top: 5px; }
 
 .socicon {
-  display: inline-block;
-  margin: 0 1px; }
+  display: inline-block; }
   .socicon .fa,
   .socicon .fab,
   .socicon .fas {

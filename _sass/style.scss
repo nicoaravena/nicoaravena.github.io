@@ -35,7 +35,7 @@ h6 {
 a {
     &:visited,
     &:focus {
-        color: #eee;
+        color: #cc7000;
         transition: all .40s ease-in-out;
         text-decoration: none;
     }
@@ -129,14 +129,15 @@ a {
 
 .footer {
     background: transparent;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    position: relative;
     .footer-content {
         padding: 20px 50px;
         padding-bottom: 10px;
         background: transparent;
         margin: auto;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
     * {
         color: #eee;
@@ -224,7 +225,6 @@ a.btn {
 
 .socicon {
     display: inline-block;
-    margin: 0 1px;
     .fa,
     .fab,
     .fas {
