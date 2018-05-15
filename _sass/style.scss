@@ -59,7 +59,6 @@ a {
     min-height: 100vmin;
     .jumbotron {
         background: none;
-        min-height: 50vmin;
         margin-bottom: 0;
     }
 }
@@ -71,8 +70,7 @@ a {
 .about-bg {
     background: none;
     /* rgba(0,0,0,.4) 
-	border-radius: 3px; */
-    padding: 80px 15px;
+    border-radius: 3px; */
 }
 
 .about-bg h2 {
@@ -89,7 +87,7 @@ a {
 
 /*
 .section-home > .jumbotron {
-	background: none;
+    background: none;
 }
 */
 
@@ -111,8 +109,8 @@ a {
 
 
 /*.top-bar {
-	border-bottom: 3px solid;
-	border-bottom-color: #337ab7;
+    border-bottom: 3px solid;
+    border-bottom-color: #337ab7;
 }*/
 
 .welcome {

@@ -53,7 +53,6 @@ a:hover {
   min-height: 100vmin; }
   .section-about .jumbotron {
     background: none;
-    min-height: 50vmin;
     margin-bottom: 0; }
 
 .page-header {
@@ -61,9 +60,8 @@ a:hover {
 
 .about-bg {
   background: none;
-    /* rgba(0,0,0,.4) 
-	border-radius: 3px; */
-  padding: 80px 15px; }
+  /* rgba(0,0,0,.4) 
+  border-radius: 3px; */ }
 
 .about-bg h2 {
   margin: 0px; }
@@ -76,7 +74,7 @@ a:hover {
 
 /*
 .section-home > .jumbotron {
-	background: none;
+    background: none;
 }
 */
 .header {
@@ -92,8 +90,8 @@ a:hover {
       border-radius: 2px; }
 
 /*.top-bar {
-	border-bottom: 3px solid;
-	border-bottom-color: #337ab7;
+    border-bottom: 3px solid;
+    border-bottom-color: #337ab7;
 }*/
 .welcome {
   text-align: center;
