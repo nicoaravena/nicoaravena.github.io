@@ -8,17 +8,17 @@ permalink:        pretty
 # Setup
 title:            Nicolas Aravena
 tagline:          'Tech guy, father of two cats and happy husband.'
-description:      'Software Engineer at IT3K SpA.'
-url:              http://nicoaravena.me
+description:      'Software Engineer at Fidelizador.com'
+url:              https://nicoaravena.me
 timezone:         America/Santiago
 markdown:         kramdown
 highlighter:      rouge
 
 author:
   name:           'Nicolas Aravena'
-  url:            https://twitter.com/Dalanth1
+  url:            https://twitter.com/nicoaravenam
 
 paginate:         5
 
 # Custom vars
-github:           http://github.com/dalanth
+github:           https://github.com/nicoaravena
