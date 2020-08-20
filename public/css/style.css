@@ -47,17 +47,18 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-blend-mode: multiply;
-  min-height: 100vmin; }
+  min-height: 100vh; }
   .section-about .jumbotron {
     background: none;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    padding: 4rem 2rem; }
 
 .page-header {
   border: none; }
 
 .about-bg {
   background: none;
-  /* rgba(0,0,0,.4) 
+  /* rgba(0,0,0,.4)
   border-radius: 3px; */ }
 
 .about-bg h2 {
