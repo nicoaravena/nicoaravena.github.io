@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 pygments:         true
 
 # Permalinks
@@ -7,18 +7,21 @@ permalink:        pretty
 
 # Setup
 title:            Nicolas Aravena
-tagline:          'Tech guy, father of two cats and happy husband.'
+tagline:          'Hey there!'
 description:      'Software Engineer at Fidelizador.com'
 url:              https://nicoaravena.me
 timezone:         America/Santiago
-markdown:         kramdown
 highlighter:      rouge
+encoding:         UTF-8
+sass:
+  sass_dir: _sass
+  style: compressed
 
 author:
   name:           'Nicolas Aravena'
-  url:            https://twitter.com/nicoaravenam
-
-paginate:         5
+  url:            https://nicoaravena.me
 
 # Custom vars
 github:           https://github.com/nicoaravena
+linkedin:         https://cl.linkedin.com/in/nicoaravena
+twitter:          https://twitter.com/nicoaravenam
