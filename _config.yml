@@ -1,27 +1,5 @@
-# Dependencies
-markdown:         kramdown
-pygments:         true
-
-# Permalinks
-permalink:        pretty
-
-# Setup
 title:            Nicolas Aravena
 tagline:          'Hey there!'
-description:      'Software Engineer at Fidelizador.com'
+description:      'Software Engineer'
 url:              https://nicoaravena.me
-timezone:         America/Santiago
-highlighter:      rouge
 encoding:         UTF-8
-sass:
-  sass_dir: _sass
-  style: compressed
-
-author:
-  name:           'Nicolas Aravena'
-  url:            https://nicoaravena.me
-
-# Custom vars
-github:           https://github.com/nicoaravena
-linkedin:         https://cl.linkedin.com/in/nicoaravena
-twitter:          https://twitter.com/nicoaravenam
